@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDemo", "AsyncDemo\AsyncDemo.csproj", "{671B300D-483A-4CF7-B6A6-59A2AFB0C653}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DB8D5961-9332-436A-A99E-7A9FA84A0E9E} = {DB8D5961-9332-436A-A99E-7A9FA84A0E9E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlowServices", "SlowServices\SlowServices.csproj", "{DB8D5961-9332-436A-A99E-7A9FA84A0E9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{671B300D-483A-4CF7-B6A6-59A2AFB0C653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671B300D-483A-4CF7-B6A6-59A2AFB0C653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671B300D-483A-4CF7-B6A6-59A2AFB0C653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671B300D-483A-4CF7-B6A6-59A2AFB0C653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8D5961-9332-436A-A99E-7A9FA84A0E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8D5961-9332-436A-A99E-7A9FA84A0E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8D5961-9332-436A-A99E-7A9FA84A0E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8D5961-9332-436A-A99E-7A9FA84A0E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
